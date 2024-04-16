@@ -1,0 +1,9 @@
+.d-flex {
+  display: flex;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.center {
+  align-items: center;
+}
