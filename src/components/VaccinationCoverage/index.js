@@ -13,8 +13,8 @@ const VaccinationCoverage = props => {
   console.log(lastDaysVaccinationList)
   return (
     <>
-      <ResponsiveContainer width="100%" height={400}>
-        <BarChart data={lastDaysVaccinationList} margin={{top: 5}}>
+      <>
+        <BarChart  width={1000} height={400} data={lastDaysVaccinationList} margin={{top: 5}}>
           <XAxis
             dataKey="vaccineDate"
             tick={{
@@ -49,7 +49,7 @@ const VaccinationCoverage = props => {
             barSize="20%"
           />
         </BarChart>
-      </ResponsiveContainer>
+      </>
     </>
   )
 }
